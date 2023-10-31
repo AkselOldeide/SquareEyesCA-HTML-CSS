@@ -1,0 +1,132 @@
+body{
+    background-color: #49475B;
+    border: 0;
+    margin: 0;
+}
+
+main{
+    align-content: center;
+}
+
+header{
+    background-image: url(../assets/Circle.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:100%;
+} 
+
+footer{
+    background-image: url(../assets/Circle.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:100%;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    bottom: 0px;
+    position: absolute;
+    width: 100vw;
+}
+
+footer .orwithstripe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px auto;
+}
+
+footer div p{
+    padding: 20px;
+}
+
+footer div img{
+    height: 1px;
+}
+
+.toplogo, .inputfields{
+    display: flex;
+    flex-direction: column;
+}
+
+.logotext, .logoicon{
+    align-self: center;
+}
+
+.logotext{
+    max-width: 80%;
+    margin-top: 24px;
+}
+
+.logoicon{
+    max-width: 30%;
+    margin-bottom: 40px;
+}
+
+
+.loginbutton:hover{
+    background-color: #ffd151;
+    color:#49475B;
+    box-shadow:#14080E 4px 4px 4px;
+}
+
+.loginbutton:active{
+    box-shadow: none;
+}
+
+.inputfields{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    text-align: center;
+    margin: 35px;
+}
+
+.inputfields input{
+    width: 100%;
+    height: 62px;
+    background-color: #E7E3D4;
+    color: #799496;
+    margin-top: 24px;
+}
+
+.passwordreset{
+    color: #799496;
+    text-decoration: none;
+    text-align: right;
+}
+
+.buttonlink{
+    width: fit-content;
+    align-self: center;
+}
+
+.loginbutton{
+    width: 170px;
+    height: 62px;
+    border-radius: 20px;
+    background-color: #FFCF56;
+    color: #14080E;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    transition-duration: 200ms;
+    box-shadow:#14080E 2px 2px 2px;
+    margin-top: 32px;
+}
+
+.socials img{
+    padding: 0px 16px;
+}
+
+footer a{
+    padding-top: 35px;
+    text-align: center;
+    border-bottom: 20px;
+}
+
+@media screen and (min-width:431px){
+    .logotext{
+        width: 60%;
+        max-width: 300px;
+    }
+}

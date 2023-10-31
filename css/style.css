@@ -1,0 +1,103 @@
+/*Genereal formatting for all pages - Backgrounds, fonts, etc.*/
+body{
+    background-color: #49475B;
+    margin: 0;
+}
+
+/*the following is a fake CSS element to contain the colors used in the document for easy access*/
+#colorsceme{
+    display: none;
+    color: #14080E; /*Black*/
+    color: #49475B; /*Grey*/
+    color: #799496; /*Teal*/
+    color: #E7E3D4; /*Eggshell*/
+    color: #FFCF56; /*Yellow*/
+    font-family: 'Lato', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.72px;
+}
+
+h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*Universal layout of the header navigation bar*/
+
+#header-nav-menu{
+    display: flex;
+    flex-direction: row;
+    height: 64px;
+    width: auto;
+    background-color: #E7E3D4;
+    vertical-align: bottom;
+
+}
+
+#header-nav-menu a{
+    height: fit-content;
+    width: 32px;
+    margin-top: auto;
+    margin-bottom: auto ;
+    text-decoration: none;
+}
+
+#header-nav-menu #logoicon{
+    height:54px;
+    width:auto;
+    margin: auto;
+}
+
+#header-nav-menu a i{
+    font-size: 32px;
+    color: #14080E;
+    display: contents;
+    width: 32px;
+    height: 32px;
+}
+
+/* Formatting for the margins in the nav bar */
+#hamburger, #search, #cart, #filler{
+    margin: 16px;
+}
+
+/*A blank div used to easier apply correct spacing in the navigation bar*/
+#filler{
+    height: 32px;
+    width: 32px;
+    background-color: none;
+    vertical-align: middle ;
+}
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+i{
+    text-decoration: none;
+}
+
+#checkout-message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#checkout-message h1{
+    margin: 16px 32px 24px;
+}
+
+#checkout-message p{
+    font-weight: 700;
+}
+
+#checkout-message #ref-number{
+    margin: 0px;
+}
+
+#checkout-message a{
+    color: #84A6FF;
+    margin-top: 2px;
+}
+
+#checkout-message a:hover{
+    text-decoration: none;
+    color: #FFCF56;
+}
+
+#checkout-message img{
+    margin: 50px 0px 16px 0px;
+}
+
+
+#checkout-message a p{
+    margin: 0px;
+    font-weight: 400;
+}
+
+#enjoy-message{
+    width: 170px;
+    height: 76px;
+    color: #E7E3D4;
+    margin-bottom: 44px;
+}
+
+#call-to-action-buttons{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+#stripe-separator{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    align-items: center;
+}
+
+#stripe-separator p{
+    color: #E7E3D4;
+    padding: 13px;
+    font-weight: 700;
+    
+}
+
+.button{
+    width: 358px;
+    height: 57px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    color: #14080E;
+    transition-duration: 300ms;
+}
+
+
+#browse-button{
+    background-color: #FFCF56;
+}
+
+
+#my-movies-button{
+    background-color: #E7E3D4;
+}
+
+.button:hover{
+    box-shadow: 4px 4px 4px;
+}
+
+#my-movies-button:hover{
+    background-color: #9a9790;
+}
+
+#browse-button:hover{
+    background-color: #c9970e;
+}
