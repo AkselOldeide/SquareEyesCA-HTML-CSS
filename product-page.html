@@ -1,37 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend+Zetta&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/product-page.css">
+    <script src="https://kit.fontawesome.com/925aa09c49.js" crossorigin="anonymous"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Product page</title>
 </head>
 <body>
     <main>
-        <section>
+
+        <section id="title">
             <h1>The Batman</h1>
             <h1>2022</h1>    
         </section>
-        <section>
-            <img src="" alt="">
+
+        <section id="image-decoration">
             <div>
                 <p>2h 56m</p>
                 <p>Action/Noir</p>
                 <p>$14.99</p>
             </div>
         </section>
+
         <section id="buttons">
-            <div>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
+            <div id="button-long" class="button-row">
+                <button>Buy now</button>
+                <button>Add to cart</button>
             </div>
-            <div>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
+            <div id="button-short" class="button-row">
+                <button>
+                    <i class="fa-regular fa-thumbs-up"></i></button>
+                <button>
+                    <i class="fa-regular fa-thumbs-down"></i></button>
+                <button>
+                    <i class="fa-regular fa-star"></i></button>
+                <button>
+                    <img src="./assets/IMDB-logo.png" 
+                    alt=""
+                    height="32px"
+                    width="32px">
+                </button>
+                <button>
+                    <img src="./assets/letterboxd-logo.png" 
+                    alt=""
+                    height="32px"
+                    width="32px">
+                </button>
             </div>
+        </section>
+
+        <article id="description">
+            <p class="category">Director: </p>
+            <p class="type">Matt reeves</p>
+            <p class="category">Actors:</p>
+            <p class="type">Robert Pattinson, Zoe Kravitz</p>
+            <p class="category">Country: </p>
+            <p class="type">USA</p>
+            <p class="category">Age:</p>
+            <p class="type">15 and up</p>
+        </article>
+        <section id="plot">
+            <p class="category">Synopsis:</p>
+            <p class="type">When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.</p>
         </section>
     </main>
 </body>
