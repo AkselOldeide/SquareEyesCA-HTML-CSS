@@ -1,0 +1,40 @@
+
+
+.movie-gallery img{
+    width: 130px;
+    height: 180px;
+}
+
+#icon{
+    height: 32px;
+    width: 32px;
+}
+
+.movie-gallery{
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden  ;
+    gap: 16px;
+}
+
+#hero-image{
+    width: 100%;
+}
+
+#scaling{
+    max-height: 200px;
+    overflow-y: hidden;
+}
+
+.gallery h1 span{
+    color: #FFCF56;
+}
+
+.gallery{
+    margin-left: 32px;
+}
+
+h1{
+    margin-top: 32px;
+    margin-bottom: 8px  ;
+}

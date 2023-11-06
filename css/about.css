@@ -1,11 +1,17 @@
 h1{
     margin-left: 32px;
+    margin-bottom: 8px;
 }
 .instance{
     display: flex;
     flex-direction: row;
     margin-bottom: 32px;
     border-left: 1px #14080E;
+}
+
+main p{
+    margin-left: 32px;
+    margin-top: 0px;
 }
 
 .instance img{

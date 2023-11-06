@@ -51,3 +51,46 @@ figure img{
 .price{
     color: #E7E3D4;
 }
+
+#total-price{
+    color: #E7E3D4;
+}
+
+#total-price p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 8px;
+}
+
+#payment-option form div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 32px;
+}
+
+#payment-option form div img{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+#checkout-button{
+    background-color: #FFCF56;
+    text-align: center;
+    width: 358px;
+    height: 57px;
+    margin-bottom: 32px;
+
+}
+
+#checkout-last{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#checkout-last h2{
+    margin: auto;
+}
