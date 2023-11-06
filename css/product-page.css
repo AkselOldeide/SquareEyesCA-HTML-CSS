@@ -1,0 +1,187 @@
+#title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body button{
+    border-radius: 10px;
+    border: 0px;
+}
+
+#plot{
+    color: #E7E3D4;
+    margin-left:32px;
+    margin-right:32px;
+}
+
+
+h1{
+    margin: 0;
+}
+
+section#title{
+    margin:  16px 35px 24px 35px ;
+}
+
+#image-decoration{
+    justify-content: end;
+    display: flex;
+    height: 206px;
+    flex-direction: column;
+    background-image: url(../assets/batman-still-1.png);
+    background-size:cover ;
+    background-position: top;
+    
+}
+
+#image-decoration div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    background-color: #49475B60;
+    bottom: 0;
+    height: 45px;
+    vertical-align: middle;
+    width: 100%;
+} 
+
+#image-decoration div p{
+    color: #FFCF56;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.button-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+#buttons{
+    margin-top: 16px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+#button-long{
+    gap: 20px;
+    color: #14080E;
+}
+
+#button-long button h3{
+    margin: auto;
+}
+
+#button-long #buy-now{
+    background-color: #FFCF56;
+}
+
+#button-long button{
+    height: 58px;
+    width:100%;
+    margin-bottom: 10px;
+}
+
+#button-short{
+    gap: 8px;
+}
+
+#button-short button{
+    height: 58px;
+    width:100%;
+}
+
+.category{
+    font-weight: 700;
+}
+
+#description p{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+article#description{
+    color: #E7E3D4;
+    margin-left: 35px;
+    margin-right: auto;
+    display: grid;
+    grid-template: 95px 116px, repeat(4, 1fr)  ;
+    grid-template-columns: ;
+    grid-template-areas: 
+    "director-a director-b"
+    "actors-a actors-b"
+    "country-a country-b"
+    "age-a age-b";
+}
+
+#description:nth-child(1){
+    grid-area: director-a;
+}
+#description:nth-child(2){
+    grid-area: director-b;
+}
+#description:nth-child(3){
+    grid-area: actors-a;
+}
+#description:nth-child(4){
+    grid-area: actors-b;
+}
+#description:nth-child(5){
+    grid-area: country-a;
+}
+#description:nth-child(6){
+    grid-area: country-b;
+}
+#description:nth-child(7){
+    grid-area: age-a;
+}
+#description:nth-child(8){
+    grid-area: age-b;
+}
+
+#movie-cover-gallery img{
+    height: 222px;
+    width: 150px;
+    margin-right: 8px;
+}
+
+#movie-cover-gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: scroll;
+    margin-left: 32px;
+}
+
+#movies-see-more{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#movies-see-more a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #14080E;
+    justify-content: center;
+    margin-right: 32px;
+}
+
+#movies-see-more a p{
+
+}
+
+#movies-see-more span{
+    color:#FFCF56 ;
+}
+
+#related-movies{
+    margin-left: 32px;
+}

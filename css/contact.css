@@ -1,0 +1,36 @@
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+    margin-right: 32px;
+    gap: 16px;
+}
+
+form input, form select{
+    height: 62px;
+    background-color: #E7E3D4;
+}
+
+form textarea{
+    background-color: #E7E3D4;
+}
+
+form button{
+    width: 20%;
+}
+
+form #submit{
+    width: 360px;
+    align-self: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: #FFCF56;
+    border-radius:10px ;
+}
+
+main h1{
+    margin-left: 32px;
+}

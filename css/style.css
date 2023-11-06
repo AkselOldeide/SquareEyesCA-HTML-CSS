@@ -2,6 +2,7 @@
 body{
     background-color: #49475B;
     margin: 0;
+    border: 0;
 }
 
 /*the following is a fake CSS element to contain the colors used in the document for easy access*/
@@ -55,10 +56,9 @@ p{
     display: flex;
     flex-direction: row;
     height: 64px;
-    width: auto;
+    width: 100vw;
     background-color: #E7E3D4;
     vertical-align: bottom;
-
 }
 
 #header-nav-menu a{

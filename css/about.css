@@ -1,0 +1,37 @@
+h1{
+    margin-left: 32px;
+}
+.instance{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+    border-left: 1px #14080E;
+}
+
+.instance img{
+    height: 20px;
+    width: 20px;
+}
+
+.instance article h2{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.instance article p{
+    color: #E7E3D4;
+    margin: 0px;
+}
+
+.instance article .year{
+    color: #14080E;
+}
+
+.instance article{
+    margin-left: 8px;
+}
+
+#timeline{
+    margin-left: 32px;
+}
+
