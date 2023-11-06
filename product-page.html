@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend+Zetta&display=swap" rel="stylesheet">
-
+    <script src="https://kit.fontawesome.com/925aa09c49.js" crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/product-page.css">
     <script src="https://kit.fontawesome.com/925aa09c49.js" crossorigin="anonymous"></script>
@@ -18,6 +19,16 @@
     <title>Product page</title>
 </head>
 <body>
+    <header>
+        <nav id="header-nav-menu">
+            <a id="hamburger" href=""><i class="fa-solid fa-bars"></i></a>
+            <div id="filler"></div>
+            <img id="logoicon" src="./assets/Square eyes icon.png" alt="">
+            <a id="search" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a id="cart" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+        </nav>
+    </header>
+
     <main>
 
         <section id="title">
@@ -27,16 +38,14 @@
 
         <section id="image-decoration">
             <div>
-                <p>2h 56m</p>
-                <p>Action/Noir</p>
                 <p>$14.99</p>
             </div>
         </section>
 
         <section id="buttons">
             <div id="button-long" class="button-row">
-                <button>Buy now</button>
-                <button>Add to cart</button>
+                <button id="buy-now"><h3>Buy now</h3></button>
+                <button><h3>Add to cart</h3></button>
             </div>
             <div id="button-short" class="button-row">
                 <button>
@@ -61,6 +70,10 @@
         </section>
 
         <article id="description">
+            <p class="category">Play time: </p>
+            <p class="type">2h 56m</p>
+            <p class="category">Genre: </p>
+            <p class="type">Action/Noir</p>
             <p class="category">Director: </p>
             <p class="type">Matt reeves</p>
             <p class="category">Actors:</p>
@@ -73,6 +86,21 @@
         <section id="plot">
             <p class="category">Synopsis:</p>
             <p class="type">When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.</p>
+        </section>
+
+        <section id="related-movies">
+            <div id="movies-see-more">
+                <h2>Related <span>Movies</span></h2>
+                <a href=""><p>See more <i class="fas fa-arrow-right"></i></p></a>
+            </div>
+            <div id="movie-cover-gallery">
+                <img src="./assets/Movies/1917.png" alt="">
+                <img src="./assets/Movies/BattleRoyale.png" alt="">
+                <img src="./assets/Movies/pearl.png" alt="">
+                <img src="./assets/Movies/LOTR.png" alt="">
+                <img src="./assets/Movies/Silence.png" alt="">
+                <img src="./assets/Movies/LawAbiding.png" alt="">
+            </div>
         </section>
     </main>
 </body>

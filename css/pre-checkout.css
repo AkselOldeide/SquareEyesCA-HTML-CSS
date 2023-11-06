@@ -1,0 +1,53 @@
+figure{
+    display: flex;
+    flex-direction: row;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+figure img{
+    width: 100px;
+    height: 150px;
+    margin-right: 16px;
+}
+
+.description-movie{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 16px;
+}
+
+.description-movie h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description-movie h2 aside a{
+    color: #E7E3D4;
+    text-decoration: none;
+}
+
+.description-movie{
+    margin: 0px;
+    gap: 8px;
+}
+
+.description-movie h2, p{
+    margin: 0px;
+}
+
+.description-movie p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.description-movie p aside{
+    color: #E7E3D4;
+}
+
+.price{
+    color: #E7E3D4;
+}
